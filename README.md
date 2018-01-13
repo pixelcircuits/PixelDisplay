@@ -1,5 +1,5 @@
 # Pixel Display
-The Pixel Display library for the Raspberry Pi is a library written in C to help easily send data to the Pixel Display. This library uses Wiring Pi, so make sure it’s installed (sudo apt-get install wiringpi) and include the library when compiling (-lwiringPi). Refer to the example (main.c) for how the library is used and how to include the library in your project.
+The Pixel Display library for the Raspberry Pi is a library written in C to help easily send data to the Pixel Display. This library uses Wiring Pi, so make sure it’s installed (sudo apt-get install wiringpi) and include the library when compiling (-lwiringPi). Also, make sure SPI is enable (sudo raspi-config). Refer to the example (main.c) for how the library is used and how to include the library in your project.
 
 * [Hackaday](https://hackaday.io/project/18298-pixel-player) - Project Page
 * [Pixel Display](http://www.google.com/) - Tindie
